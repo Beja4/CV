@@ -1,0 +1,82 @@
+*{
+
+    font-family: "Rethink Sans", sans-serif;
+    
+}
+
+body {
+    
+    background-color: darkgray;
+    color: black;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+   background-color:beige;
+    border-radius: 8px;
+  
+}
+
+.container img{
+    width: 200px;
+    height:200px;
+border-radius: 5%;
+}
+
+
+
+
+h1, h2 {
+    color: rgb(110, 87, 224);
+}
+
+.section-contact{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    
+   
+}
+
+
+
+.section {
+    margin-bottom: 20px;
+}
+
+.skills-languages{
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+
+
+}
+.section-languages{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 400px;
+    
+}
+
+
+.contact-info p {
+    margin: 5px 0;
+}
+.skills-list, .languages-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.skills-list li, .languages-list li {
+    background-color: rgb(192, 166, 49);
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100px;
+}
+
